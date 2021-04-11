@@ -1,0 +1,55 @@
+.container{
+	max-width: 980px;
+}
+.top-menu{
+	background: #212121 ;
+	border-radius: 0;
+	border:none;
+}
+.top-menu .navbar-nav >.active>a, 
+.top-menu .navbar-nav >.active>a:focus,
+.top-menu .navbar-nav >li>a:hover,
+.top-menu .navbar-nav >.active>a:hover {
+    background-color: #f38256;
+}
+/*.top-menu li.active a {     Di vao li co class active(goij cho cai class active cua li) roi den cai a
+	background-color:  #f38256 !important;
+}*/
+.header-logo img {
+	width:50%
+}
+.header-form{
+	text-align: right
+}
+.main-menu{
+	border-top:none;
+	border-bottom: 3px solid #f38256;
+	border-radius: 0;
+}
+.main-menu .navbar-nav >.active>a,    /* cai .main-menu phai co mot khoảng trắng với cái .navbar ko se bị lỗi */
+.main-menu .navbar-nav >.active>a:focus,
+.main-menu .navbar-nav >li>a:hover,
+.main-menu .navbar-nav >.active>a:hover {
+    background-color: #f38256;
+    color: #fff;
+}
+.banner img{
+	padding-top: 0;
+	padding-right:0%;
+	width:110%;
+}
+.banner-right{
+	padding-left: 0;
+	padding-top:0;
+	padding-bottom: 0;
+	width: 25.5%
+}
+.banner-left{
+	padding-left: 0;
+	padding-top:0;
+	padding-bottom: 0;
+	width: 70%
+}
+.main a {
+	
+}
